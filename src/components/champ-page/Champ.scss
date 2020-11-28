@@ -1,0 +1,34 @@
+.container {
+
+    .champ-header {
+
+        .name-container {
+
+            .champ-name {
+
+            }
+
+            .title {
+
+            }
+
+            .champ-tags {
+
+                .tag {
+
+                }
+            }
+        }
+    }
+
+    .skills {
+
+        .active {
+            transform: scale(1.1);
+        }
+
+        .non-active {
+            transform: scale(.9);
+        }
+    }
+}

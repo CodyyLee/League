@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .champ {
+        text-align: center;
+        padding: 3%;
+        max-width: 45%;
+
+        img {
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .champ-name {
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+}

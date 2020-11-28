@@ -1,0 +1,22 @@
+@import '../../styles/Mixins.scss';
+@import '../../styles/Variables.scss';
+
+.search {
+    @include FlexCenterColumn;
+
+    #name {
+
+    }
+
+    fieldset {
+        @include FlexCenter;
+
+        label {
+
+        }
+
+        .region {
+
+        }
+    }
+}
